@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment-5</title>
+</head>
+<body>
+  <h1>IRON MAN</h1>
+  <p>Some of the image of Iron Man are-</p>
+  <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgP1nBK8Ebk_cINjsQnjCupavivFT7KAWsxw&usqp=CAU">
+  </image>
+  
+  <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOx2eunwMS23qFMA4eusE_Eocj39Daoi5paQ&usqp=CAU">
+  </image>
+  
+  <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQY70vdc5EMpNOA6pmRrCyD0q99031KSUsyg&usqp=CAU"
+  hight="50%">
+  </image>
+  
+  <h1>Earth</h1>
+  <video muted autoplay controls src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4">
+  </video>
+  
+  <image height="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3sI11Ex4QfWcjnwxT3hdn4Sq9Q9NfAOc9NQ&usqp=CAU">
+  </image>
+  
+  <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQk772nteEjMLA-q3MM2iD8414jzPEhHPAZw&usqp=CAU">
+  </image>
+  
+</body>
+</html>
