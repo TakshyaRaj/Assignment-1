@@ -1,0 +1,41 @@
+body{background-color:#1BCA9B ;}
+
+nav{
+  border-radius: 25px;
+   background-color: white;}
+   
+nav ul{overflow: auto;}
+
+#b{display:block;
+  height:2%;
+  
+}
+
+#main{position:absolute;
+    bottom:15%;
+    left:39%;
+}
+
+nav li{list-style:none;
+       float: left;
+       padding: 10px 30px;
+       color:red;
+}
+
+#link{text-decoration:none;
+      color:#4eeff7ee;
+      border:2px solid  #4eeff7ee;
+}
+
+nav li:hover{font-weight:bold;
+             background-color:#74f989;
+  
+}
+
+p{background-color: white;
+  border-radius:8px;
+}
+
+.one{font-weight:bold;}
+
+
