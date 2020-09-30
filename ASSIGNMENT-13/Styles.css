@@ -6,9 +6,17 @@ nav{
    
 nav ul{overflow: auto;}
 
-#b{display:block;
-  height:2%;
-  
+ #new{display:inline-block;
+       height:232px;
+       width:700px;
+     }
+     
+#img{float:left;
+     clear:left;}
+
+#span1{position:relative;
+       top:80px;
+       left:80px;
 }
 
 #main{position:absolute;
