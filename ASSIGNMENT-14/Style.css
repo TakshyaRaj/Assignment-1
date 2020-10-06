@@ -22,8 +22,8 @@
   }
      
   .all1{border:5px solid red;
-        border-style:dotted;
-        margin:19px;
+        border-style: double;
+        margin:25px;
         border-radius:10px;
         color:rgb(21,151,247);
         
@@ -32,7 +32,7 @@
         
   #img1{margin:auto;
         display: block;
-        border:15px solid red;
+        border:20px solid red;
         border-style: dotted;
         filter: drop-shadow(15px 15px 15px green);
         
