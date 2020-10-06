@@ -1,0 +1,62 @@
+
+  body{border: 30px groove #0cd50c; 
+       background-color: #a7f8d4;
+       
+  }
+   
+ 
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+ 
+     
+ h3{display:block;
+     text-align:center;
+     background-color: red;
+     animation-name: example;
+     animation-duration: 4s;
+  }
+     
+  .all1{border:5px solid red;
+        border-style:dotted;
+        margin:19px;
+        border-radius:10px;
+        color:rgb(21,151,247);
+        
+        
+  }
+        
+  #img1{margin:auto;
+        display: block;
+        border:15px solid red;
+        border-style: dotted;
+        filter: drop-shadow(15px 15px 15px green);
+        
+          }
+  
+          
+  .imp{font-weight:bold;
+       text-align:center;
+       font-size:20px;
+       display: block;
+       color:#32f420;
+       border:3px solid #7777f3a8;
+       background-color:#f0b5fc;
+       
+       
+  }
+  
+  .imp:hover{ border-radius:15px;
+              width: 50%;
+              margin:auto;}
+  
+  #img2{margin:auto;
+        display: block;
+        border:15px solid red;
+        border-style: dotted;}
+        
+ 
