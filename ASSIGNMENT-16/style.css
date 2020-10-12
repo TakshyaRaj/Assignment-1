@@ -1,0 +1,74 @@
+body {background-image:url('https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg');
+}
+.container{display: flex;
+           justify-content: space-around;
+}
+
+.item{width: 150px;
+      height: 250px;
+        
+}
+      
+#item-1 :hover{height:150px;
+           font-size: 25px;
+           border-radius:9px;
+           background-color:  #b4b4f5;
+}
+
+#item-2 :hover{height:150px;
+           font-size: 25px;
+           border-radius:9px;
+           background-color:  #a2fad6;}
+           
+#item-3 :hover { height:150px;
+           font-size: 25px;
+           border-radius:9px;
+           background-color:  #7dc3f8;}
+      
+#item-1{background-color: #b4b4f5;
+        margin: 20px;
+       
+}
+
+#item-2{background-color:#a2fad6;
+        margin: 20px;
+}
+
+#item-3{background-color:#7dc3f8;
+        margin: 20px;
+}
+
+.font{text-align: center;
+      display: block;
+      margin: auto;
+      font-weight: 900;
+      
+}
+
+.img{display: block;
+     margin: auto;
+     width: 150px;
+     height:150px;
+     margin-top: 5px;
+}
+
+.p{background-color: #fcb7fbe9;}
+
+.image{height:200px;
+       width:200px;
+       margin: auto;
+       display: block;
+}
+
+.div1{background-color:#f7a2a2;}
+
+.div2{background-color: #fcfcb6;}
+
+.div3{background-color:#ffc0cb;}
+
+.div4{background-color:#d3fefeeb;}
+
+.div5{background-color: #cecef8;}
+
+a{text-decoration: none;}
+
