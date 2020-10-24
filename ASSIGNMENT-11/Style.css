@@ -4,7 +4,7 @@ header{font-family: 'Grenze Gotisch', cursive;
   text-align: center;
 }
 a{text-decoration: none;
-  font-size:60%;
+  font-size:70%;
   color:#2a63e2;
 }
 
@@ -13,17 +13,17 @@ h4{color:#EA425C;
 letter-spacing: 2px;
 }
 #first{letter-spacing: 4px;
-         word-spacing: 2px;;
+         word-spacing: 3px;;
           
 }
 
 h4#two{color:#487EB0;
-       width: 50%;
+       width: 225px;
        border-top:2px solid #487EB0;
        float: right;
        
 }
-#third{word-spacing: 8px;}
+#third{word-spacing: 10px;}
 
 h4#fourth{background-color:#487EB0;
           color:#EEC213;
