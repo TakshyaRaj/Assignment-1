@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Assignment-20</title>
+    
+    <script type="text/javascript" charset="utf-8">
+      
+      alert("WELCOME")
+      Name =  prompt("Write Your full name","name");
+      Age = prompt("What is your age" , "Age");
+      colour = prompt("What is your favourite colour" , "colour");
+      Aim = prompt("What is your Aim" , "AIM");
+      
+      console.log(`Your Name is ${Name}`)
+      console.log(`Your Age is ${Age}`)
+      console.log(`Your Favourite Colour is ${colour}`)
+      console.log(`Your Aim is ${Aim}`)
+      console.log("We hope You have a nice day")
+    </script>
+  </head>
+  <body>
+    
+    <style type="text/css" media="all">
+      #nav{background-color: black;
+        border-radius: 20px;
+      }
+      ul{display: flex;}
+      li{list-style: none;
+        padding: 8px 8px;
+        transition: all 2s ease-in-out;
+      }
+      li:hover{font-weight:bold;
+               background-color: white;}
+      a{text-decoration: none;
+        color: #6bfc88;
+      }
+      
+      nav::before{content:" ";
+         background-image:url('https://source.unsplash.com/random');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;
+         
+         
+      }
+      
+      #divall{content:" ";
+         background-image:url('https://picsum.photos/200');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;}
+         
+      .link:hover{animation-name:link;
+          animation-duration: 4s;}
+      @keyframes link{
+        0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}}
+  
+      #div1{font-size:30px;
+        font-weight: bold;
+        color: white;
+        text-align:center;
+        animation: animation2 5s linear 2s 2;
+        position: relative;
+      
+      }
+
+@keyframes animation2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+      
+      .flex{display: flex;}
+      .divflex{border: 3px solid red;
+               margin: 3px;
+               padding: 4px;
+               border-radius: 10px;
+               z-index: 5;
+      }
+      
+      .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin:7px 7px;
+  
+}
+
+@keyframes animation1 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.button:hover {background-color: #3e8e41;
+  position: relative;
+  animation: animation1 5s linear 2s 2;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+      
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li><a href="#" class="link">Home </a></li>
+        <li><a href="#" class="link">Contact Us</a></li>
+        <li><a href="#" class="link">About Us</a></li>
+        <li><a href="#" class="link">More</a></li>
+      </ul>
+    </nav>
+    
+    <div id="div1">
+      WELCOME TO TAKSHYA'S SHOP
+    </div>  <br />
+   <div class="flex">
+     <div class="divflex">
+       <h3>Food Delivery</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque est tempore enim minus omnis porro autem! Autem nisi eius fugiat provident harum ea accusantium voluptas. Deleniti iste odit magni 
+     </div>
+     
+     <div class="divflex">
+       <h3>Food services</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate natus saepe nisi facere a, aperiam! Laborum, hic sapiente blanditiis quaerat libero similique possimus maiores facere volup.
+     </div>
+     
+     <div class="divflex">
+       <h3>More Services</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eligendi, sunt ducimus ratione soluta, quibusdam tempore quis magni at sapiente odio, nihil. Ipsum magni quis 
+     </div>
+   </div>
+   
+   <div id="divall">
+     
+   </div>
+   
+   <button class="button" >CAKES</button>
+   <button class="button" style="float:right">BOOKS</button><br />
+   <button class="button">TOYS</button>
+   <button style="float: right;" class="button">GROCERY</button><br />
+  
+
+  </body>
+</html>
